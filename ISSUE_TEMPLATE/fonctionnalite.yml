@@ -1,0 +1,42 @@
+name: Proposer une fonctionnalité
+description: Une idée d'amélioration pour ce module
+labels: ["enhancement", "idée"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Une proposition suit le parcours décrit dans la [page Gouvernance](https://vienne-condrieu-agglomeration.github.io/geo-modules-community/gouvernance/) : discussion, puis décision écrite (acceptée, reportée ou refusée, avec la raison). Ce projet est mené bénévolement : les délais sont indicatifs.
+  - type: textarea
+    id: besoin
+    attributes:
+      label: Le besoin
+      description: Quel problème cherchez-vous à résoudre ?
+    validations:
+      required: true
+  - type: textarea
+    id: usage
+    attributes:
+      label: L'usage concret
+      description: Comment l'utiliseriez-vous ? Qui d'autre en aurait besoin ?
+    validations:
+      required: true
+  - type: textarea
+    id: proposition
+    attributes:
+      label: Ce que vous proposez
+      description: Le comportement souhaité. Pour une fonctionnalité qui change un comportement existant, préciser si elle peut être désactivée par défaut.
+  - type: input
+    id: version-geo
+    attributes:
+      label: Version de GEO concernée
+      placeholder: "4.5.0"
+  - type: dropdown
+    id: contribution
+    attributes:
+      label: Pourriez-vous la développer ?
+      options:
+        - Oui, je souhaite la développer
+        - Peut-être, avec un coup de main
+        - Non, je ne peux que la proposer
+    validations:
+      required: true

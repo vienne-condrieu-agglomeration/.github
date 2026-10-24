@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Une question, une astuce, un retour d'expérience
+    url: https://discord.com/channels/1080047753863909446/
+    about: Le Club Utilisateurs GEO (Discord) est le bon endroit pour échanger avant d'ouvrir une issue.
+  - name: Proposer un nouveau module
+    url: https://github.com/vienne-condrieu-agglomeration/geo-modules-community/issues/new/choose
+    about: Les propositions de nouveaux modules se font sur le dépôt geo-modules-community.
+  - name: Comment une idée est décidée
+    url: https://vienne-condrieu-agglomeration.github.io/geo-modules-community/gouvernance/
+    about: Parcours d'une proposition, critères d'intégration et délais indicatifs.
